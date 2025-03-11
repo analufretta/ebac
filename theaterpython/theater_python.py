@@ -35,9 +35,9 @@ while True:
     os.system("clear")
     continue
   else:
-      print("\nYou chose to buy tickets for '{0}'".format(performances[perf_question-1]))
-      input("Press any key to continue...")
-      os.system("clear")
+    print("\nYou chose to buy tickets for '{0}'".format(performances[perf_question-1]))
+    input("Press any key to continue...")
+    os.system("clear")
 
 #Date selection loop_2
   while True:
