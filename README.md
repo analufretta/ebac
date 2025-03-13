@@ -1,32 +1,22 @@
-#THIS REPOSITORY IS PART OF THE DATA ANALYTICS COURSE FROM EBAC
+# EBAC REPOSITORY
 
-Description:
+This repository is part of the *Data Analytics Course* from EBAC
 
-directory#1: ti_zero_ao_pro
+## DIRECTORIES INDEX
 
-	--> C++ code project
- 
-	files:
- 
-		cartotio.cpp
+1. ti_zero_ao_pro 
 
-directory#2: python_module
+	<cartorio.cpp>
 
-	--> Python code project
- 
-	files:
- 
-		theater_python.py
+3. python_module
 
-directory#3: linux_module
+	<theater_python.py>
 
-	--> Shell code project
- 
-	files:
- 
-		script.txt //use description
+5. linux_module
+
+	<script.txt> //use description
   
-		code_read.sh //executable file
+	<code_read.sh> //executable file
   
-		bla.csv //csv example for sh execution
+	<bla.csv> //csv example for sh execution
 
