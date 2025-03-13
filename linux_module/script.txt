@@ -1,0 +1,15 @@
+
+# Description
+
+code_read/sh reads css files, formatting it, and counting the lines
+
+
+#If the file is not executable:
+
+chmod 755 code_read.sh
+
+
+#to execute the reader:
+./code_read.sh file.csv
+
+--> bla.csv is an test example
