@@ -6,17 +6,17 @@ This repository is part of the *Data Analytics Course* from EBAC
 
 1. ti_zero_ao_pro 
 
-	<cartorio.cpp>
+	- cartorio.cpp
 
 3. python_module
 
-	<theater_python.py>
+	- theater_python.py
 
 5. linux_module
 
-	<script.txt> //use description
+	- script.txt //use description
   
-	<code_read.sh> //executable file
+	- code_read.sh //executable file
   
-	<bla.csv> //csv example for sh execution
+	- bla.csv //csv example for sh execution
 
