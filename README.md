@@ -15,12 +15,11 @@ This repository is part of the *Data Analytics Course* from EBAC
   	- code_read.sh //executable file
   	- bla.csv //csv example for sh execution
 
-4.sql_module
-	* classes
- 		* query_class_1.sql
-   		* query_class_2.sql
-     		* query_class_3.sql
-	* restaurant_project
- 		* restaurant_database.sql
-     
-
+4. sql_module
+   	- classes
+   	  	- query_class_1.sql
+   	  	- query_class_2.sql
+   	  	- query_class_3.sql
+   
+   	- restaurant_project
+   	  	- restaurant_databse.sql
