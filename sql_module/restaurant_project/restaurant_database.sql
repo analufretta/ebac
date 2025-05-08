@@ -36,10 +36,12 @@ use restaurant;
         category varchar(100) #beverages, starters, ,main dish, desert
 	);
     
-	create table if not exists orders(
-		is_order int primary key auto_increment,
+    	create table if not exists orders(
+		id_order int primary key auto_increment,
         id_client int,
         foreign key (id_client) references clients(id_client),
+        id_employee int,
+        foreign key (id_employee) references employees(id_employee),
         id_product int,
         foreign key (id_product) references products(id_product),
         quantity int,

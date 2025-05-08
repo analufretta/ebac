@@ -1,4 +1,4 @@
-/* Aula 2 */
+/* Aula 2 */ -- only examples, do not use
 
 use informatica;
 

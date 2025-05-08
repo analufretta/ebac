@@ -1,11 +1,14 @@
 create database informatica;
+
 use informatica;
+
 create table clients(
-	id int,
-    nome varchar(50)
+	id_clients int,
+    client_name varchar(255) not null
 );
-show tables;
 
 alter table clients add date_of_birth DATE;
+
+show tables;
 
 drop table clients;
