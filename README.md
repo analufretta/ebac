@@ -1,3 +1,7 @@
+# EBAC REPOSITORY
+
+This repository is part of the *Data Analytics Course* from EBAC
+
 ## DIRECTORIES INDEX
 
 1. ti_zero_ao_pro 
