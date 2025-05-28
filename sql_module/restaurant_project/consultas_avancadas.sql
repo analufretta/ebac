@@ -93,8 +93,7 @@ begin
     
     select
 		round(avg(total_price),2) into avgPrice
-    from summary_orders
-    where id_order = idOrder;
+    from summary_orders;
     
     set classification =
     case
@@ -113,3 +112,9 @@ select
 	orderClassification(id_order)
 from summary_orders
 where id_order = 5 or id_order = 6;
+
+select
+	id_order,
+	orderClassification(id_order)
+from summary_orders
+where id_order is not null;
