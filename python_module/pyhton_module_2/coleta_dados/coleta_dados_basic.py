@@ -1,4 +1,12 @@
-import requests
+import yfinance as yf
+import pandas as pd
 
-response = requests.get('https://finance.yahoo.com/quote/%5EBVSP/history/?guccounter=1')
-print (response.text[:600]) #slicing: [:600] prints from 0 to 600 charac
+print('YFinance:')
+bvsp_2024 = yf.download ('^BVSP', start = "2024-01-01", end = "2024-12-31")
+print(bvsp_2024.head(5))
+
+bvsp_2024.to_csv('bvsp_2024.csv')  #save data do csv file to demonstration purposes
+
+print('Pandas:')
+bvsp_2024_data = pd.read_csv('bvsp_2024.csv')
+print(bvsp_2024_data.head(5))
