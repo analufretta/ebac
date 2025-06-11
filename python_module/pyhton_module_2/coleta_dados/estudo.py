@@ -1,4 +1,6 @@
-# Explain line 4 'print (response.text[:600])': slicing: [:600] prints from 0 to 600 characteres
+#Estudo 1: coleta_dados_basic.py
+
+## Explaination 'print (response.text[:600])': slicing: [:600] prints from 0 to 600 characteres
 
 texto = 'Extrair msg de texto'
 
@@ -11,7 +13,7 @@ print (subtexto)
 subtexto = texto[-5:]
 print (subtexto)
 
-#Scrapinh html data: esse metodo nao funcionau para mim, estava dando erro 'Edge: Too Many Requests'
+##Scraping html data: esse metodo nao funcionau para mim, estava dando erro 'Edge: Too Many Requests'
 import requests
 from bs4 import BeautifulSoup
 import pandas
