@@ -44,7 +44,7 @@ print('Total Heading 1:', count_h1)
 print('Total Heading 2:', count_h2)
 print('Total Heading 2:', count_h3)
 
-Monstrar textos
+# Monstrar textos
 
 for text_line in soup.find_all(['h1','h2','h3']):
     if text_line.name == 'h1':
